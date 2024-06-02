@@ -1,0 +1,385 @@
+/* 
+    Author: Pranta Mazumder;
+    Theme: Food Order;
+    version: 1.0;
+*/
+
+/* CSS for All */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.heading{
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 1%;
+}
+
+
+.heading_order{
+    width: 65%;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 1%;
+    margin: auto;
+}
+
+
+
+.wrapper{
+
+    border: 0px solid black;
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wrapper_order{
+
+    padding: 1%;
+    width: 91%;
+    margin: 1% auto;
+}
+.text-center{
+    text-align: center;
+}
+
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+.error-message{
+
+    color: #d60a0a;
+    font-weight: bold;
+}
+
+
+
+/* css for menu */
+
+.menu{
+    border-bottom: 1px solid black;
+}
+
+
+.menu ul{
+    list-style-type: none;
+    padding: 1%;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(169, 6, 6);
+
+
+}
+
+.menu ul li a:hover{
+    color: rgb(25, 105, 175);
+}
+
+
+
+/* css for main-content */
+
+.main-content{
+    margin: 0% 1%;
+    background-color: rgb(227, 227, 227);
+    padding: 3% 0%;
+
+}
+
+
+
+.col-4{
+    background-color: rgb(254, 255, 255);
+    width: 11%;
+    margin: 1%;
+    padding: 3%;
+    border-radius: 5%;
+    float: left;
+}
+
+.tbl-full{
+
+    width: 100%;
+   
+}
+
+.tbl_full_admin{
+
+    width: 100%;
+   
+}
+
+.tbl_full_admin td{
+
+    padding: 21px;
+   
+}
+
+
+
+.tbl-full-order{
+
+    width: 100%;
+    border: 1px solid rgb(53, 52, 52);
+    border-radius: 5px;
+    text-align: center;
+    border-collapse:collapse;
+    font-size: 11px; 
+ 
+
+    
+
+}
+.input-responsive_order{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.input-responsive_order{
+    width: 86%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+
+
+.tbl-full-order th{
+
+    border: 1px solid rgb(53, 52, 52);
+    text-align: center;
+
+    
+
+}
+
+.tbl-full-order td{
+
+    border: 1px solid rgb(53, 52, 52);
+    
+
+}
+.tbl-form{
+    width: 35%;
+}
+.tbl-form-category{
+    width: 45%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+
+    background-color: #62b0ff;
+    text-decoration: none;
+    color: rgb(246, 248, 251);
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 2%;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #0984e3;
+
+
+}
+
+
+.btn-secondary{
+
+
+    background-color: #1ea50a;
+    text-decoration: none;
+    color: rgb(246, 248, 251);
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 2%;
+    font-weight: bold;
+    margin: 1%;
+
+}
+
+
+.btn-secondary:hover{
+    background-color: #146507;
+
+
+}
+
+.btn-denger{
+
+    background-color: #b7290a;
+    text-decoration: none;
+    color: rgb(246, 248, 251);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2%;
+    font-weight: bold;
+    margin: auto;
+
+
+}
+
+.success{
+    color: #fafbfa;
+    text-align: center;
+    background-color: #1ea50a;
+    width: 85%;
+    border: 1px solid #1ea50a;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 1%;
+
+}
+
+.error{
+    color: #fafbfa;
+    text-align: center;
+    background-color: #d60a0a;
+    width: 85%;
+    border: 1px solid #d60a0a;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 1%;
+
+
+}
+
+
+.success-small{
+    color: #fafbfa;
+    text-align: center;
+    background-color: #1ea50a;
+    width: 35%;
+    border: 1px solid #1ea50a;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 1%;
+
+}
+
+.error-small{
+    color: #fafbfa;
+    text-align: center;
+    background-color: #d60a0a;
+    width: 45%;
+    border: 1px solid #d60a0a;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 1%;
+
+
+}
+
+.ordered{
+
+    background-color: #c5b80a;
+    border: 0px;
+    border-radius: 3px;
+    color: white;
+}
+
+
+.on_delivery{
+
+    background-color: #f47e09;
+    border: 0px;
+    border-radius: 3px;
+    color: white;
+
+}
+
+
+
+.cancelled{
+
+    background-color: #c11f06;
+    border: 0px;
+    border-radius: 3px;
+    color: white;
+
+}
+.delivered{
+
+    background-color: #158404;
+    border: 0px;
+    border-radius: 3px;
+    color: white;
+
+}
+
+
+
+.btn-denger:hover{
+    background-color: #790926;
+
+
+}
+
+
+
+/* css for footer */
+
+.footer{
+
+    background-color: #d96b26;
+    color: rgb(251, 251, 251);
+    
+}
+
+
+    /* css for login page  */
+
+.login{
+
+        border: 1px solid black;
+        border-radius: 5px;
+        margin: 10% auto;
+        padding: 3%;
+        width: 55%;
+}
+
+.btn-login{
+
+        background-color: #62b0ff;
+        text-decoration: none;
+        width: 41%;
+        color: rgb(246, 248, 251);
+        border-radius: 5px;
+        padding: 2%;
+        font-weight: bold;
+}
+
+/* This page is well structured */
+
+    
