@@ -74,7 +74,7 @@
   
   **Contributing**
   
-  Name : Pranta Mazumder
+  Name : Pranta Mazumder  
   Work Title : student
   Institution : Rangamati Science And Technology University
   Experience : Work as web development trainer And Freelancer in Youth development authority in 
